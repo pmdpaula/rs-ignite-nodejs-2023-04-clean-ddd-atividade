@@ -13,7 +13,7 @@ test("create an answer", async () => {
 
   const answer = await answerQuestion.execute({
     questionId: "1",
-    instructorId: "1",
+    developerId: "1",
     content: "Nova resposta",
   });
 
